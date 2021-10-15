@@ -1,66 +1,93 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: #F3F1FF;
 }
 
-main{
+main {
     margin-top: 120px;
 }
 
-.logo-icon{
+.logo-icon {
     width: 50px;
     height: 50px;
 }
-.player{
+
+.player {
     width: 56px;
     height: 56px;
 }
-#players{
+
+#players {
     /* background-color: white; */
     margin-top: 40px;
 }
-.name{
+
+.name {
     padding: 15px;
-    font-size: 
-    18px;
+    font-size:
+        18px;
 }
-.blog-picture{
+
+.blog-picture {
     width: 177px;
     height: 117px;
 }
-.blog-names{
+
+.blog-names {
     font-size: 18px;
     font-weight: bolder;
 }
-.text-colors{
+
+.text-colors {
     color: #562EFF;
 }
-.details{
+
+.details {
     padding-left: 15px;
 }
-.course-picture{
+
+.course-picture {
     width: 224px;
     height: 104px;
 }
-.couse-details{
+
+.couse-details {
     font-size: 20px;
     line-height: 12px;
     padding-top: 18px;
 }
-.time p{
-   border: 1px solid #FF4A60;
-   border-radius: 30px;
-   background-color: tomato;
-   opacity: 0.6;
-   margin-left: 5px; 
+
+.time p {
+    border: 1px solid #FF4A60;
+    border-radius: 30px;
+    background-color: tomato;
+    opacity: 0.6;
+    margin-left: 5px;
 }
 
-.menu{
+.menu {
     background-color: transparent;
     opacity: 0.6;
 }
-.footer{
+
+.footer {
     width: 100%;
     height: auto;
     text-align: center;
+}
+
+@media (max-width: 580px) {
+    .container {
+
+        padding-left: 100px;
+    }
+    ul li{
+        text-align: center;
+        
+    }
+    .last-logo{
+       display: none;
+    }
+
+
 }

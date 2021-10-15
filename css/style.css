@@ -59,3 +59,8 @@ main{
     background-color: transparent;
     opacity: 0.6;
 }
+.footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}

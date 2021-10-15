@@ -83,6 +83,10 @@ main {
     .mobile-res{
         padding-left: 100px;
     }
+    .top-mobile-res{
+        padding-left: 50px;
+    }
+
     #blog-section{
         padding-left: 20px; 
     }
